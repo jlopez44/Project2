@@ -20,7 +20,11 @@ p, h2, h3, label, input, #content {
     text-align: center; /* Align form elements to the center */
     margin: 15px;
   }
+#nav ul{
+    display: inline-block;
+}
 nav{
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
