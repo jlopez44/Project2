@@ -4,7 +4,8 @@ h1 {
 
 h3 {
  font-size: 1.25rem;
- text-align: center
+ text-align: center;
+ font-weight: bold;
 }
 
 /*Nav bar css */
@@ -34,9 +35,9 @@ h3 {
 /*Hyperlink list css */
 
 #infols li{
- text-align: center;
  font-size: 1.25rem;
  padding-bottom: 10px;
+ margin: auto;
 }
 
 #infols a{
