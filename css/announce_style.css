@@ -50,3 +50,19 @@ h3 {
 #infols a:hover{
  color: rgb(8, 8, 170);
 }
+
+/*Social bar css */
+
+#social ul{
+ list-style-type: none;
+ width: 100%;
+ background-color: rgb(3, 3, 109);
+}
+
+#social li{
+ float: right;
+}
+
+#social a{
+ 
+}
