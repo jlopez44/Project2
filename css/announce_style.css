@@ -8,4 +8,5 @@
 #bar li{
  float: left;
  width: 25%;
+ text-align: center;
 }
