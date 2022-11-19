@@ -37,7 +37,8 @@ h3 {
 #infols li{
  font-size: 1.25rem;
  padding-bottom: 10px;
- margin: auto;
+ margin: 0 auto;
+ width: 50%;
 }
 
 #infols a{
