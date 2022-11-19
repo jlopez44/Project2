@@ -1,0 +1,6 @@
+nav {
+ display: inline-block;
+ list-style-type: none;
+ width: 25%;
+ background-color: rgb(19, 206, 19);
+}
