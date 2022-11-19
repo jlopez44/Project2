@@ -2,6 +2,7 @@
  display: inline-block;
  list-style-type: none;
  background-color: rgb(19, 206, 19);
+ width: 100%;
 }
 
 #bar li{
