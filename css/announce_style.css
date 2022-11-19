@@ -9,15 +9,15 @@
  width: 25%;
  text-align: center;
  font-size: 1.25rem;
+ background-color: rgb(8, 179, 226);
 }
 
 #bar a{
  text-decoration: none;
  color: white;
- background-color: rgb(8, 179, 226);
 }
 
-#bar a:hover{
+#bar li:hover{
  background-color: rgb(3, 3, 86);
 }
 
