@@ -46,3 +46,7 @@ h3 {
  text-decoration: none;
  color: black;
 }
+
+#infols a:hover{
+ color: rgb(3, 3, 86);
+}
