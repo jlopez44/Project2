@@ -1,7 +1,6 @@
 #bar ul {
  display: inline-block;
  list-style-type: none;
- background-color: rgb(8, 179, 226);
  width: 100%;
 }
 
@@ -15,6 +14,11 @@
 #bar a{
  text-decoration: none;
  color: white;
+ background-color: rgb(8, 179, 226);
+}
+
+#bar a:hover{
+ background-color: rgb(3, 3, 86);
 }
 
 h1 {
