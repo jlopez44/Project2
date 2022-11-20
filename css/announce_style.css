@@ -1,0 +1,64 @@
+h1 {
+ font-size: 3.052rem;
+}
+
+h3 {
+ font-size: 1.25rem;
+ text-align: center;
+ font-weight: bold;
+}
+
+/*Nav bar css */
+#nav ul {
+ display: inline-block;
+ list-style-type: none;
+ width: 100%;
+}
+
+#nav li{
+ float: left;
+ width: 25%;
+ text-align: center;
+ font-size: 1.25rem;
+ background-color: rgb(8, 179, 226);
+}
+
+#nav a{
+ text-decoration: none;
+ color: white;
+}
+
+#nav li:hover{
+ background-color: rgb(3, 3, 86);
+}
+
+/*Hyperlink list css */
+
+#infols li{
+ font-size: 1.25rem;
+ padding-top: 5%;
+ padding-bottom: 2%;
+ margin: 0 auto;
+ width: 50%;
+}
+
+#infols a{
+ text-decoration: none;
+ color: black;
+}
+
+#infols a:hover{
+ color: rgb(8, 8, 170);
+}
+
+/*Social bar css */
+
+#social ul{
+ list-style-type: none;
+ width: 100%;
+ background-color: rgb(3, 3, 109);
+}
+
+#social li{
+ float: right;
+}
