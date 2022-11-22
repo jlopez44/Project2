@@ -52,11 +52,12 @@ h3 {
 }
 
 /*Social bar css */
-
-#social ul{
- list-style-type: none;
+#social {
  width: 100%;
  background-color: rgb(3, 3, 109);
+}
+#social ul{
+ list-style-type: none;
 }
 
 #social li{
