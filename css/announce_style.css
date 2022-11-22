@@ -52,7 +52,11 @@ h3 {
 }
 
 /*Social bar css */
-
+#social {
+ width: 400px;
+ background-color: aqua;
+ border: 2px solid black;
+}
 #social ul{
  list-style-type: none;
  width: 100%;
