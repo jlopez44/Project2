@@ -1,17 +1,19 @@
+#content{
+ text-align: center;
+}
+
 h1 {
  font-size: 3.052rem;
 }
 
 h3 {
  font-size: 1.25rem;
- text-align: center;
  font-weight: bold;
 }
 
 /*Nav bar css */
 
 nav{
- margin: 0 auto;
  list-style-type: none;
  margin: 0;
  padding: 0;
