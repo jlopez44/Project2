@@ -4,11 +4,13 @@
 
 h1 {
  font-size: 3.052rem;
+ float: left;
 }
 
 h3 {
  font-size: 1.25rem;
  font-weight: bold;
+ float: left;
 }
 
 /*Nav bar css */
@@ -23,6 +25,7 @@ nav{
 
 #nav ul {
  display: inline-block;
+ float: left;
 }
 
 #nav li{
