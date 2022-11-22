@@ -9,27 +9,33 @@ h3 {
 }
 
 /*Nav bar css */
+#nav {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: aqua;
+}
+
 #nav ul {
  display: inline-block;
- list-style-type: none;
- width: 100%;
 }
 
 #nav li{
  float: left;
- width: 25%;
  text-align: center;
- font-size: 1.25rem;
- background-color: rgb(8, 179, 226);
 }
 
 #nav a{
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
  text-decoration: none;
- color: white;
 }
 
-#nav li:hover{
- background-color: rgb(3, 3, 86);
+#nav a:hover{
+ background-color: aquamarine;
 }
 
 /*Hyperlink list css */
