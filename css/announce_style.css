@@ -53,8 +53,8 @@ h3 {
 
 /*Social bar css */
 #social {
- width: 400px;
- height: 200px;
+ width: 100%;
+ height: 50px;
  background-color: aqua;
  border: 2px solid black;
 }
