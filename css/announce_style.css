@@ -19,11 +19,11 @@ nav{
 }
 
 #nav ul {
- margin: 0 auto;
  display: inline-block;
 }
 
 #nav li{
+ margin: 0 auto;
  float: left;
  text-align: center;
 }
