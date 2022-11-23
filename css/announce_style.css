@@ -22,6 +22,7 @@ nav{
 
 #nav ul {
  display: inline-block;
+ text-align: center;
 }
 
 #nav li{
@@ -30,7 +31,6 @@ nav{
 }
 
 #nav a{
- text-align: center;
  display: block;
  color: black;
  text-align: center;
