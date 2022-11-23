@@ -84,6 +84,7 @@ nav{
 }
 
 #social li{
+ top: 0;
  float: right;
  width: 10%;
  text-align: center;
