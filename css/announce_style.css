@@ -1,5 +1,5 @@
 #content{
- 
+ text-align: center;
 }
 
 h1 {
@@ -16,9 +16,10 @@ h3 {
 
 nav{
  list-style-type: none;
+ margin: 0;
+ padding: 0;
  overflow: hidden;
  background-color: aqua;
- text-align: center;
 }
 
 #nav ul {
