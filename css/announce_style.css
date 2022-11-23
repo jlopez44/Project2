@@ -46,6 +46,7 @@ nav{
 /*Hyperlink list css */
 
 #infols li{
+ text-align: start;
  font-size: 1.25rem;
  padding-top: 5%;
  padding-bottom: 2%;
