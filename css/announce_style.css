@@ -3,6 +3,11 @@
  position: relative;
 }
 
+#head{
+ background-color: rgb(19, 161, 250);
+ width: 100%;
+}
+
 h1 {
  font-size: 3.052rem;
 }
@@ -69,7 +74,6 @@ nav{
 #social {
  width: 100%;
  height: 50px;
- border: 2px solid black;
 }
 
 #social ul{
