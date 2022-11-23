@@ -18,11 +18,11 @@ nav{
  list-style-type: none;
  overflow: hidden;
  background-color: aqua;
+ text-align: center;
 }
 
 #nav ul {
  display: inline-block;
- text-align: center;
 }
 
 #nav li{
