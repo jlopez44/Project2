@@ -16,8 +16,6 @@ h3 {
 
 nav{
  list-style-type: none;
- margin: 0 auto;
- padding: 0;
  overflow: hidden;
  background-color: aqua;
 }
@@ -32,6 +30,7 @@ nav{
 }
 
 #nav a{
+ text-align: center;
  display: block;
  color: black;
  text-align: center;
