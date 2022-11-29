@@ -49,7 +49,14 @@ nav{
  background-color: aquamarine;
 }
 
-/*Hyperlink list css */
+/*Hyperlinks css*/
+
+.setup{
+ width: 25%;
+ margin: 0 auto;
+ background-color: rgb(44, 123, 149);
+ border-radius: 3%;
+}
 
 #infols li{
  text-align: start;
