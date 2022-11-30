@@ -9,7 +9,7 @@
 }
 
 h1 {
- font-size: 2.369rem;
+ font-size: 1.777rem;
  padding-bottom: 4px;
 }
 
@@ -130,7 +130,7 @@ nav{
 /*Adding media queries*/
 @media screen and (min-width:510px) {
 h1{
- font-size: 3.157rem;
+ font-size: 2.369rem;
 }
 
 }
