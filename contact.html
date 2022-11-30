@@ -2,7 +2,7 @@
 <html lang="en" class="nojs">
 <head>
   <title>The International Society for Universal Dialogue</title>
-  <meta charset="utf-8"/>
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
   <link rel="stylesheet" media="screen" href="css/contact_style.css">
@@ -31,7 +31,26 @@
     </div>
     <div class="rightcolumn">
       <div class="card">
+        <form method="get" action="#null" name="registerForm" onsubmit="return chkemtpy()">
         <h2>Thank you for your Interest</h2>
+        <div class="register">
+          <label>First Name: </label>
+          <input type="text" name="fname" placeholder="Jane">
+          <label>Last Name: </label>
+          <input type="text" name="lname" placeholder="Doe">
+          <label>Email: </label>
+          <input type="text" name="email" placeholder="Email">
+          <label>Organization: </label>
+          <input type="text" name="organization" placeholder="Organization">
+          <label>Message</label>
+          <input type="text" name="message" placeholder="Message">
+        </div>
+        <div class="check">
+          <input type="checkbox" name="checkbox">
+          <label>I agree to signup for ISUD's newsletter</label>
+        </div>
+        <button type="submit">Subscribe</button>
+      </form>
       </div>
     </div>
   </div>
