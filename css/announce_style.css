@@ -63,6 +63,10 @@ nav{
  border-radius: 4px;
 }
 
+.borders a{
+ text-decoration: none;
+}
+
 .borders a:hover{
  background-color: aquamarine;
 }
