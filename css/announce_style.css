@@ -68,8 +68,7 @@ nav{
 }
 
 .borders img{
- position: fixed;
- margin: 0 auto;
+ position: absolute;
 }
 
 .borders a{
