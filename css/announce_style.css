@@ -58,7 +58,7 @@ nav{
 
 .borders{
  width: 35%;
- height: fit-content;
+ height: 50px;
  margin: 0 auto;
  display: inline-block;
  background-color: rgb(44, 123, 149);
