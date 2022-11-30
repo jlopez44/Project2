@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
   <link rel="stylesheet" media="screen" href="css/contact_style.css">
+  <script src="js/site.js"></script>
 </head>
 <body>
   <div class="header">
@@ -31,15 +32,15 @@
     </div>
     <div class="rightcolumn">
       <div class="card">
-        <form method="get" action="#null" name="registerForm" onsubmit="return chkemtpy()">
+        <form method="get" action="#null" name="contactForm" autocomplete="on" onsubmit="return checkForm()">
         <h2>Thank you for your Interest</h2>
         <div class="register">
-          <label>First Name: </label>
-          <input type="text" name="fname" placeholder="Jane">
-          <label>Last Name: </label>
-          <input type="text" name="lname" placeholder="Doe">
-          <label>Email: </label>
-          <input type="text" name="email" placeholder="Email">
+          <label for="firstname">First Name: *</label>
+          <input type="text" name="first_name" placeholder="Jane" autocomplete="legal-name">
+          <label for="lastname">Last Name: *</label>
+          <input type="text" name="last_name" placeholder="Doe" autocomplete="family-name">
+          <label for="email">Email: *</label>
+          <input type="text" name="email_info" placeholder="Email" autocomplete="email">
           <label>Organization: </label>
           <input type="text" name="organization" placeholder="Organization">
           <label>Message</label>
