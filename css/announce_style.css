@@ -56,28 +56,28 @@ nav{
  margin: 0 auto;
 }
 
-#peru{
+.peru{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
  border-radius: 3%;
 }
 
-#dialogue{
+.dialogue{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
  border-radius: 3%;
 }
 
-#video{
+.video{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
  border-radius: 3%;
 }
 
-#past{
+.past{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
