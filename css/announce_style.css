@@ -76,25 +76,7 @@ nav{
  background-color: aquamarine;
 }
 
-#peru{
- display: block;
- padding: 4px;
- text-align: center;
-}
-
-#dialogue{
- display: block;
- padding: 4px;
- text-align: center;
-}
-
-#video{
- display: block;
- padding: 4px;
- text-align: center;
-}
-
-#past{
+.border2{
  display: block;
  padding: 4px;
  text-align: center;
