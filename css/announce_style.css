@@ -65,6 +65,8 @@ nav{
  display: inline-block;
  background-color: rgb(44, 123, 149);
  border-radius: 4px;
+ padding-top: 2px;
+ padding-bottom: 4px;
 }
 
 .borders a{
