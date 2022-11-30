@@ -72,7 +72,7 @@ nav{
  text-decoration: none;
 }
 
-.borders a:hover{
+.borders:hover{
  background-color: aquamarine;
 }
 
