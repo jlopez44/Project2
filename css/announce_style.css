@@ -79,10 +79,18 @@ nav{
  text-align: center;
 }
 
+#peru img{
+ width: 100%;
+}
+
 #dialogue{
  display: block;
  padding: 4px;
  text-align: center;
+}
+
+#dialogue img{
+ width: 100%;
 }
 
 #video{
@@ -91,10 +99,18 @@ nav{
  text-align: center;
 }
 
+#video img{
+ width: 100%;
+}
+
 #past{
  display: block;
  padding: 4px;
  text-align: center;
+}
+
+#past img{
+ width: 100%;
 }
 
 /*Social bar css */
