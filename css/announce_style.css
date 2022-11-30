@@ -9,7 +9,7 @@
 }
 
 h1 {
- font-size: 3.052rem;
+ font-size: 1.424rem;
 }
 
 h3 {
@@ -124,4 +124,19 @@ nav{
 #social a{
  text-decoration: none;
  color: white;
+}
+
+/*Adding media queries*/
+@media screen and (min-width:510px) {
+h1{
+ font-size: 1.602rem;
+}
+
+}
+
+@media screen and (min-width:840px) {
+ h1{
+  font-size: 1.802rem;
+ }
+
 }
