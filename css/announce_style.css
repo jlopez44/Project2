@@ -73,21 +73,25 @@ nav{
 
 #peru{
  display: block;
+ padding: 4px;
  text-align: center;
 }
 
 #dialogue{
  display: block;
+ padding: 4px;
  text-align: center;
 }
 
 #video{
  display: block;
+ padding: 4px;
  text-align: center;
 }
 
 #past{
  display: block;
+ padding: 4px;
  text-align: center;
 }
 
