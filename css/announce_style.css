@@ -59,7 +59,7 @@ nav{
 .borders{
  width: 25%;
  margin: 0 auto;
- display: block;
+ display: inline-block;
  background-color: rgb(44, 123, 149);
  border-radius: 4px;
 }
@@ -73,21 +73,25 @@ nav{
 }
 
 #peru{
+ display: block;
  padding: 4px;
  text-align: center;
 }
 
 #dialogue{
+ display: block;
  padding: 4px;
  text-align: center;
 }
 
 #video{
+ display: block;
  padding: 4px;
  text-align: center;
 }
 
 #past{
+ display: block;
  padding: 4px;
  text-align: center;
 }
