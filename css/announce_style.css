@@ -59,7 +59,7 @@ nav{
 
 .borders{
  width: 100%;
- height: inherit;
+ height: 150px;
  margin: 0 auto;
  padding: 2px;
  display: inline-block;
