@@ -60,28 +60,28 @@ nav{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
- border-radius: 3%;
+ border-radius: 2px;
 }
 
 .dialogue{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
- border-radius: 3%;
+ border-radius: 2px;
 }
 
 .video{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
- border-radius: 3%;
+ border-radius: 2px;
 }
 
 .past{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
- border-radius: 3%;
+ border-radius: 2px;
 }
 
 #infols li{
@@ -98,8 +98,8 @@ nav{
  color: black;
 }
 
-#infols a:hover{
- color: rgb(8, 8, 170);
+.peru .dialogue .video .past:hover{
+ color: aquamarine;
 }
 
 /*Social bar css */
