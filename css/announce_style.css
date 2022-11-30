@@ -60,6 +60,7 @@ nav{
  width: 35%;
  height: 150px;
  margin: 0 auto;
+ padding: 2px;
  display: inline-block;
  background-color: rgb(44, 123, 149);
  border-radius: 4px;
