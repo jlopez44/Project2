@@ -6,7 +6,7 @@ function checkForm() {
     var lastName = document.forms["contactForm"]["last_name"].value
     var email= document.forms["contactForm"]["email_info"].value
     if ((!firstName) || (!lastName) || (!email)) {
-        alert("Please all fill out the starred fields");
+        alert("Please fill out all the starred fields");
         return false;
     }
     else {

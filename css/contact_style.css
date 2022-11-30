@@ -74,6 +74,12 @@ body {
   color: white;
   margin-top: 20px;
 }
+/*centering images*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*form specific style*/
 .register {
   display: flex;
