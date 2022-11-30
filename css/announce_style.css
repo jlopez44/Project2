@@ -56,49 +56,14 @@ nav{
  margin: 0 auto;
 }
 
-.peru{
+.borders{
  width: 50%;
  margin: 0 auto;
  background-color: rgb(44, 123, 149);
- border-radius: 2px;
+ border-radius: 4px;
 }
 
-.dialogue{
- width: 50%;
- margin: 0 auto;
- background-color: rgb(44, 123, 149);
- border-radius: 2px;
-}
-
-.video{
- width: 50%;
- margin: 0 auto;
- background-color: rgb(44, 123, 149);
- border-radius: 2px;
-}
-
-.past{
- width: 50%;
- margin: 0 auto;
- background-color: rgb(44, 123, 149);
- border-radius: 2px;
-}
-
-#infols li{
- text-align: start;
- font-size: 1.25rem;
- padding-top: 5%;
- padding-bottom: 2%;
- margin: 0 auto;
- width: 50%;
-}
-
-#infols a{
- text-decoration: none;
- color: black;
-}
-
-.peru .dialogue .video .past:hover{
+.borders:hover{
  color: aquamarine;
 }
 
