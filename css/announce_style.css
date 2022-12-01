@@ -91,10 +91,8 @@ nav{
 
 /*Social bar css */
 .social1{
- width: 30%;
- float: left;
+ width: 100%;
  background-color: white;
- height: 100vh;
 }
 
 #social {
@@ -105,13 +103,11 @@ nav{
 #social ul{
  display: block;
  float: left;
- width: 10%;
  height: max-content;
  background-color:aquamarine;
 }
 
 #social li{
- width: 10%;
  text-align: center;
  font-size: 1.25rem;
 }
@@ -127,6 +123,12 @@ h1{
  font-size: 2.369rem;
 }
 
+.social1{
+ width: 30%;
+ float: left;
+ height: 100vh;
+}
+
 .borders{
  width: 35%;
 }
@@ -140,6 +142,12 @@ h1{
 @media screen and (min-width:840px) {
  h1{
   font-size: 4.209rem;
+ }
+
+ .social1{
+  width: 30%;
+  float: left;
+  height: 100vh;
  }
  
  .borders{
