@@ -128,11 +128,12 @@ h1{
 
 .social1{
  width: 20%;
- float: left;
  height: 100vh;
+ float: left;
 }
 
 #social {
+ margin: 0 auto;
  width: 50%;
 }
 
@@ -158,6 +159,7 @@ h1{
  }
 
  #social {
+  margin: 0 auto;
   width: 30%;
  }
  
