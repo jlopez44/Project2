@@ -90,11 +90,14 @@ nav{
 }
 
 /*Social bar css */
-
-#social {
+.social1{
  width: 30%;
  float: left;
  height: 100vh;
+}
+
+#social {
+ width: 30%;
  background-color: aquamarine;
 }
 
