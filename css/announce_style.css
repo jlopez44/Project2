@@ -112,6 +112,11 @@ nav{
  font-size: 1.25rem;
 }
 
+#social img{
+ max-width: 100%;
+ height: auto;
+}
+
 /*Adding media queries*/
 @media screen and (min-width:510px) {
 h1{
