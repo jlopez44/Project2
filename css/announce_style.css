@@ -112,10 +112,6 @@ nav{
  font-size: 1.25rem;
 }
 
-#social img{
- width: 30%;
-}
-
 /*Adding media queries*/
 @media screen and (min-width:510px) {
 h1{
