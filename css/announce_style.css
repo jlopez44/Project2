@@ -95,6 +95,8 @@ nav{
 }
 
 #social ul{
+ display: block;
+ float: left;
  position: absolute;
  width: 10%;
  height: max-content;
