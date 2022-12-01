@@ -53,6 +53,7 @@ nav{
 /*Hyperlinks css*/
 
 .setup{
+ display: inline;
  width: 65%;
  text-align: center;
 }
