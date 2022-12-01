@@ -21,13 +21,12 @@ h3 {
 
 /*Nav bar css */
 
-#nav{
- list-style-type: none;
+.navbar{
  overflow: hidden;
  background-color: cadetblue;
 }
 
-#nav a{
+.navbar a{
  display: block;
  float: left;
  color: aliceblue;
@@ -36,12 +35,12 @@ h3 {
  text-decoration: none;
 }
 
-#nav a:hover{
+.navbar a:hover{
  background-color: rgb(135, 232, 135);
  color: black;
 }
 
-/*Events column css*/
+/*Hyperlinks css*/
 
 .setup{
  display: inline;
@@ -80,7 +79,7 @@ h3 {
  text-align: center;
 }
 
-/*Social column css */
+/*Social bar css */
 .social1{
  padding-left: 2%;
  float: left;
