@@ -132,6 +132,10 @@ h1{
  height: 100vh;
 }
 
+#social {
+ width: 30%;
+}
+
 .borders{
  width: 35%;
 }
