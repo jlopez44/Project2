@@ -44,7 +44,42 @@ h3 {
  color: black;
 }
 
-/*Hyperlinks css*/
+/*Social column css */
+.social1{
+ padding-left: 2%;
+ float: left;
+ width: 100%;
+ background-color: white;
+}
+
+.social1 h3{
+ text-align: center;
+}
+
+#social {
+ width: 100%;
+ background-color:burlywood;
+}
+
+#social ul{
+ display: block;
+ height: max-content;
+ background-color:burlywood;
+ padding-left: 20%;
+ padding-right: 20%;
+}
+
+#social li{
+ text-align: center;
+ font-size: 1.25rem;
+}
+
+#social img{
+ width: 100%;
+ height: auto;
+}
+
+/*Event column css*/
 
 .setup{
  display: inline;
@@ -83,41 +118,6 @@ h3 {
  text-align: center;
 }
 
-/*Social bar css */
-.social1{
- padding-left: 2%;
- float: left;
- width: 100%;
- background-color: white;
-}
-
-.social1 h3{
- text-align: center;
-}
-
-#social {
- width: 100%;
- background-color:burlywood;
-}
-
-#social ul{
- display: block;
- height: max-content;
- background-color:burlywood;
- padding-left: 20%;
- padding-right: 20%;
-}
-
-#social li{
- text-align: center;
- font-size: 1.25rem;
-}
-
-#social img{
- width: 100%;
- height: auto;
-}
-
 /*Adding media queries*/
 @media screen and (min-width:510px) {
 h1{
@@ -136,7 +136,7 @@ h1{
 }
 
 .borders{
- width: 35%;
+ width: 20%;
 }
 
 .borders a{
@@ -157,7 +157,7 @@ h1{
  }
  
  .borders{
-  width: 30%;
+  width: 20%;
  }
 
  .borders a{
