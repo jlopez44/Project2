@@ -101,6 +101,7 @@ nav{
 
 #social ul{
  display: block;
+ width: 100%;
  float: left;
  height: max-content;
  background-color:aquamarine;
