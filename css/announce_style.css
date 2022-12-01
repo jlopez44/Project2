@@ -26,28 +26,21 @@ nav{
  margin: 0;
  padding: 0;
  overflow: hidden;
- background-color: aqua;
-}
-
-#nav ul {
- display: inline-block;
-}
-
-#nav li{
- float: left;
- text-align: center;
+ background-color: cadetblue;
 }
 
 #nav a{
  display: block;
- color: black;
+ float: left;
+ color: aliceblue;
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
 }
 
 #nav a:hover{
- background-color: aquamarine;
+ background-color: rgb(135, 232, 135);
+ color: black;
 }
 
 /*Hyperlinks css*/
