@@ -21,10 +21,8 @@ h3 {
 
 /*Nav bar css */
 
-nav{
+#nav{
  list-style-type: none;
- margin: 0;
- padding: 0;
  overflow: hidden;
  background-color: cadetblue;
 }
@@ -43,7 +41,7 @@ nav{
  color: black;
 }
 
-/*Hyperlinks css*/
+/*Events column css*/
 
 .setup{
  display: inline;
@@ -82,7 +80,7 @@ nav{
  text-align: center;
 }
 
-/*Social bar css */
+/*Social column css */
 .social1{
  padding-left: 2%;
  float: left;
