@@ -92,12 +92,12 @@ nav{
  float: left;
  height: 200px;
  background-color: aquamarine;
+ position: absolute;
 }
 
 #social ul{
  display: block;
  float: left;
- position: absolute;
  width: 10%;
  height: max-content;
  background-color:aquamarine;
