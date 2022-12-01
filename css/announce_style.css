@@ -96,6 +96,10 @@ nav{
  background-color: white;
 }
 
+.social1 h3{
+ text-align: center;
+}
+
 #social {
  width: 100%;
 }
