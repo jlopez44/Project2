@@ -19,6 +19,10 @@ h3 {
  text-align: center;
 }
 
+*{
+ box-sizing: border-box;
+}
+
 /*Nav bar css */
 
 .navbar{
