@@ -55,6 +55,9 @@ nav{
 .setup{
  display: inline;
  width: 65%;
+}
+
+.setup h3{
  text-align: center;
 }
 
