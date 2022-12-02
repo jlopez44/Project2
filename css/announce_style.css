@@ -55,6 +55,7 @@ h3 {
 
 .social1 h3{
  background-color: aliceblue;
+ width: 15%;
  padding-top: 4px;
  text-align: center;
  padding: 2%;
@@ -64,19 +65,6 @@ h3 {
  width: 100%;
  border-radius: 4%;
  background-color:burlywood;
-}
-
-#social ul{
- display: block;
- height: max-content;
- background-color:burlywood;
- padding-left: 20%;
- padding-right: 20%;
-}
-
-#social li{
- text-align: center;
- font-size: 1.25rem;
 }
 
 #social img{
