@@ -53,6 +53,13 @@ h3 {
  background-color: white;
 }
 
+.social1 h3{
+ background-color: aliceblue;
+ width: 30%;
+ text-align: center;
+ padding: 10px;
+}
+
 #social {
  width: 100%;
  border-radius: 2%;
@@ -62,13 +69,6 @@ h3 {
 #social img{
  width: 100%;
  height: auto;
-}
-
-#s-title{
- margin: 0 auto;
- width: 15%;
- text-align: center;
- padding-top: 2%;
 }
 
 /*Event column css*/
