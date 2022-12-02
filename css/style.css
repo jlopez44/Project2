@@ -140,7 +140,6 @@ input[type=submit] {
  }
  
  .border2{
-  margin: 0 auto;
   padding-right: 2%;
   padding-left: 2%;
   display: block;
@@ -166,5 +165,5 @@ input[type=submit] {
     float: none;
     width: 100%;
   }
-
+  
 }
