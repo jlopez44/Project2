@@ -46,19 +46,11 @@ h3 {
 
 /*Social column css */
 .social1{
- text-align: center;
  padding-top: 1%;
  padding-left: 2%;
  float: left;
  width: 100%;
  background-color: white;
-}
-
-.social1 h3{
- background-color: aliceblue;
- width: 30%;
- padding-top: 4px;
- padding: 2%;
 }
 
 #social {
