@@ -51,6 +51,8 @@ h3 {
 
 /*Social column css */
 .social1{
+ padding-top: 1%;
+ padding-bottom: 2%;
  float: left;
  width: 100%;
  background-color: white;
