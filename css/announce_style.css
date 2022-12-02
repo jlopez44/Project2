@@ -81,6 +81,7 @@ h3 {
 }
 
 .setup h3{
+ width: 20%;
  padding-top: 1%;
  background-color: rgb(246, 232, 214);
  text-align: center;
