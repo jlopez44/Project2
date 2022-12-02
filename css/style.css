@@ -125,7 +125,7 @@ input[type=submit] {
  
  .borders{
   margin: 0 auto;
-  width: 100%;
+  width: 30%;
   height: 150px;
   padding: 2px;
   display: inline-block;
@@ -152,10 +152,6 @@ input[type=submit] {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
-  }
-
-  .borders{
-    width: 30%;
   }
 
 } 
