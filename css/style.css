@@ -122,19 +122,9 @@ input[type=submit] {
 
 
 /*Event grid for annoucement page css*/
-.setup{
-  padding-top: 2%;
-  display: inline;
-  width: 65%;
- }
- 
- .setup h3{
-  padding-top: 1%;
-  text-align: center;
- }
  
  .borders{
-  width: 100%;
+  width: 30%;
   height: 150px;
   padding: 2px;
   display: inline-block;
