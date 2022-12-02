@@ -124,6 +124,7 @@ input[type=submit] {
 /*Event grid for annoucement page css*/
  
  .borders{
+  margin: 0 auto;
   width: 30%;
   height: 150px;
   padding: 2px;
