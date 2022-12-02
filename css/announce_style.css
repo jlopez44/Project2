@@ -81,7 +81,7 @@ h3 {
 }
 
 .setup h3{
- float: inline-end;
+ margin: auto;
  width: 20%;
  padding-top: 1%;
  background-color: rgb(246, 232, 214);
