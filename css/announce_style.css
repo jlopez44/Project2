@@ -53,20 +53,20 @@ h3 {
  background-color: white;
 }
 
-#social h3{
- background-color: rgb(246, 232, 214);
- text-align: center;
- padding: 10px;
-}
-
 #social {
  width: 100%;
  border-radius: 2%;
  background-color:burlywood;
 }
 
+#social h3{
+ background-color: rgb(246, 232, 214);
+ text-align: center;
+ padding: 10px;
+}
+
 #social img{
- width: 100%;
+ width: 50%;
  height: auto;
 }
 
