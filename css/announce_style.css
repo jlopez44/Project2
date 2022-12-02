@@ -70,6 +70,7 @@ h3 {
 #social img{
  width: 35%;
  height: auto;
+ display: block;
 }
 
 /*Event column css*/
