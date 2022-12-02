@@ -2,23 +2,60 @@
 <html lang="en" class="nojs">
 <head>
   <title>The International Society for Universal Dialogue</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport"/>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
-  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="screen" href="css/contact_style.css">
+  <script src="js/site.js"></script>
 </head>
 <body>
-<main id="content">
-  <h1>The International Society for Universal Dialogue</h1>
-  <div id="nav">
-    <ul class="nav-list">
-      <li class="nav-item"><a href="index.html">Home</a></li>
-      <li class="nav-item"><a href="about.html">About Us</a></li>
-      <li class="nav-item"><a href="announce.html">Announcements and Events</a></li>
-      <li class="nav-item"><a href="contact.html">Contact</a></li>
-    </ul>
+  <div class="header">
+    <h1>The International Society for Universal Dialogue</h1>
   </div>
-
-</main>
+  <div class="topnav">
+    <a href="index.html">Home Page</a>
+    <a href="about.html">About Us</a>
+    <a href="announce.html">Announcements & Events</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+  <div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+    <div class="body">
+      <h2>Contact Us</h2>
+    </div>
+      <p> Want to learn more about the inner-workings of our Society, join us, or network? Feel free to leave us a message on the form.</p>
+    </div>
+    <div class="card">
+    <div class="body">
+      <h2>Socials</h2>
+    </div>
+      <ul><a href="https://www.facebook.com/"></a><img src="images/facebookLogo.png" alt="Facebook" width="20%"></ul>
+      <ul><a href="https://www.linkedin.com/"></a><img src="images/linkedInLogo.png" alt="LinkedIn" width="20%"></ul>
+      <ul><a href="https://www.instagram.com/"></a><img src="images/instagramLogo.png" alt="Instagram" width="20%"></ul>
+      <ul><a href="https://twitter.com/"></a><img src="images/twitterLogo.png" alt="Twitter" width="20%"></ul>
+      <ul><a href="https://www.Youtube.com/"></a><img src="images/youtubeLogo.png" alt="YouTube" width="60%"></ul>
+    </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <form method="get" action="#null" name="contactForm" autocomplete="on" onsubmit="return checkForm()">
+        <h1>Contact International Society for Universal Dialogue.</h1>
+        <div class="register">
+          <input type="text" name="first_name" placeholder="First Name*" autocomplete="legal-name">
+          <input type="text" name="last_name" placeholder="Last Name*" autocomplete="family-name">
+          <input type="text" name="email_info" placeholder="Email*" autocomplete="email">
+          <input type="text" name="organization" placeholder="Organization">
+          <input type="text" name="message" placeholder="Message">
+        </div>
+        <div class="check">
+          <input type="checkbox" name="checkbox">
+          <label>I agree to signup for ISUD's newsletter</label>
+        </div>
+        <button type="submit">Subscribe</button>
+      </form>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

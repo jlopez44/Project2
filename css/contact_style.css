@@ -1,0 +1,135 @@
+/*For Team- color scheme (body, header, etc.) feel free to change*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  background: aliceblue;
+}
+/*Header Title*/
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: aliceblue;
+}
+.header h1 {
+  font-size: 50px;
+}
+.body h2 {
+  padding:10px;
+  text-align: center;
+  background-color:antiquewhite;
+}
+/*Style for top navigation bar*/
+.topnav {
+  overflow: hidden;
+  background-color:cadetblue;
+}
+/*Style for top navigation links*/
+.topnav a {
+  float: left;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*Change color on hover*/
+.topnav a:hover {
+  background-color:rgb(135, 232, 135);
+  color: black;
+}
+/*Two unequal columns that will be next to eachother*/
+/*left column*/
+.leftcolumn {
+  float:left;
+  width:25%;
+  background-color: aliceblue;
+  padding-left: 20px;
+}
+/*right column*/
+.rightcolumn {
+  float:right;
+  width: 70%;
+}
+/*row organization*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*card affect*/
+.card {
+  background-color:burlywood;
+  padding: 20px;
+  margin-top: 20px;
+}
+/*footer for additional information*/
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: dimgray;
+  color: white;
+  margin-top: 20px;
+}
+/*centering images*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*form specific style*/
+.register {
+  display: flex;
+  flex-direction: column;
+}
+.check {
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+label1 {
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+form {
+  padding: 21px;
+  background: burlywood;
+  opacity: 0.9;
+}
+input {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+button {
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: solid;
+  border-color: cadetblue;
+  border-radius: 6px;
+}
+input[type=submit]:hover {
+  background-color: white;
+}
+input[type=submit] {
+  font-family: 'Fredoka One', cursive;
+  background-color: rgba(0, 128, 255, 0.9);
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  } 
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
