@@ -64,6 +64,13 @@ h3 {
  height: auto;
 }
 
+#s-title{
+ margin: 0 auto;
+ width: 15%;
+ text-align: center;
+ padding-top: 2%;
+}
+
 /*Event column css*/
 
 .setup{
