@@ -54,6 +54,7 @@ h3 {
 }
 
 #social {
+ display: block;
  width: 100%;
  border-radius: 2%;
  background-color:burlywood;
