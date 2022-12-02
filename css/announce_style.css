@@ -75,6 +75,7 @@ h3 {
 /*Event column css*/
 
 .setup{
+ padding-top: 2%;
  display: inline;
  width: 65%;
 }
