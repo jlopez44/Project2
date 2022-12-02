@@ -125,7 +125,7 @@ input[type=submit] {
  
  .borders{
   margin: 0 auto;
-  width: 30%;
+  width: 100%;
   height: 150px;
   padding: 2px;
   display: inline-block;
@@ -153,11 +153,19 @@ input[type=submit] {
     width: 100%;
     padding: 0;
   }
+
+  .borders{
+    width: 50%;
+  }
 } 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
     width: 100%;
+  }
+
+  .borders{
+    width: 50%;
   }
 }
