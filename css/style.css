@@ -145,6 +145,9 @@ input[type=submit] {
   display: block;
   padding: 4px;
   text-align: center;
+ }
+
+ .border2 a{
   text-decoration: none;
  }
 
