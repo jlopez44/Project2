@@ -15,7 +15,7 @@ body {
   background-color: aliceblue;
 }
 .header h1 {
-  font-size: 2.369em;
+  font-size: 4.209em;
 }
 .body h2 {
   padding:10px;
@@ -155,7 +155,7 @@ input[type=submit] {
   }
 
   .header h1 {
-    font-size: 4.209em;
+    font-size: 2.369em;
   }
 
   .borders{
