@@ -15,7 +15,7 @@ body {
   background-color: aliceblue;
 }
 .header h1 {
-  font-size: 50px;
+  font-size: 2.369em;
 }
 .body h2 {
   padding:10px;
@@ -152,6 +152,10 @@ input[type=submit] {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
+  }
+
+  .header h1 {
+    font-size: 4.209em;
   }
 
   .borders{
