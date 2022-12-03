@@ -96,7 +96,7 @@ body {
   background-color: aliceblue;
 }
 .header h1 {
-  font-size: 50px;
+  font-size: 3.157em;
 }
 .body h2 {
   padding:10px;
@@ -186,7 +186,7 @@ input {
 button {
   color: black;
   font-size: 20px;
-  width: 100%;
+  width: 30%;
   padding: 5px;
   margin-top: 5px;
   border: solid;
@@ -200,13 +200,54 @@ input[type=submit] {
   font-family: 'Fredoka One', cursive;
   background-color: rgba(0, 128, 255, 0.9);
 }
+
+
+/*Event grid for annoucement page css*/
+
+ .borders{
+  margin: 0 auto;
+  width: 30%;
+  height: 150px;
+  padding: 2px;
+  display: inline-block;
+  background-color: antiquewhite;
+  border-radius: 4px;
+  margin-top: 7px;
+  margin-bottom: 6px;
+ }
+
+ .borders:hover{
+  background-color: rgb(135, 232, 135);
+ }
+
+ .border2{
+  padding-right: 2%;
+  padding-left: 2%;
+  display: block;
+  padding: 4px;
+  text-align: center;
+ }
+
+ .border2 a{
+  text-decoration: none;
+  color: black;
+ }
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
   }
-} 
+
+  .header h1 {
+    font-size: 2.369em;
+  }
+
+  .borders{
+    width: 100%;
+  }
+}
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
@@ -234,4 +275,3 @@ input[type=submit] {
         width: auto;
     }
 }
-
