@@ -45,6 +45,10 @@ body {
   background-color:rgb(135, 232, 135);
   color: black;
 }
+/*bullet points*/
+ul.b {
+  list-style-type: square;
+}
 /*Two unequal columns that will be next to eachother*/
 /*left column*/
 .leftcolumn {
